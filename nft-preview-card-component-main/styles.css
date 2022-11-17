@@ -1,0 +1,108 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body {
+    border: 0;
+    padding: 0;
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+#body{
+}
+#container{
+    width: 300px;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+
+}
+#pic{
+    width: 250px;
+    position: absolute;
+    left: 8.5%;
+    top:5%;
+    border-radius: 10px;
+    
+}
+@media screen and (max-width : 375px){
+    #container{
+        width: 200px;
+        height: 300px;
+    }
+    #pic{
+        width: 167px;
+    }
+}
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+#content{
+    position: absolute;
+    top: 55%;
+    text-align: left;
+    left: 8%;
+    font-family: Outfit;
+    color:hsl(215, 51%, 70%); ;
+}
+#time{
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    color:hsl(215, 51%, 70%);
+}
+#clock{
+    position: absolute;
+    top:15%;
+    left: -20%;
+}
+#head{
+    color:white
+}
+#price{
+    color:hsl(178, 100%, 50%);
+}
+#eye{
+    position:absolute;
+    opacity: 0.4;
+    top: 5%;
+    left: 9%;
+    padding: 100px;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%);
+    
+}
+
+#head:hover{
+    color:hsl(178, 100%, 50%) ;
+    cursor: pointer;
+}
+#eye1{
+    position: absolute;
+    top: 5%;
+    left: 9%;
+    padding: 100px;
+    border-radius: 10px;
+    opacity: 1;
+}
+#preview{
+    position: absolute;
+    top: 5%;
+    left: 9%;
+    opacity: 0;
+}
+#preview:hover{
+    opacity: 1;
+}
+
+
